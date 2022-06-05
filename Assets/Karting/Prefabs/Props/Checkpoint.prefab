@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3761431495673512401}
   - component: {fileID: 3761431495673512402}
   - component: {fileID: 6972624742742338666}
-  - component: {fileID: 169301250}
+  - component: {fileID: 1057018350}
   m_Layer: 0
   m_Name: Checkpoint
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 3761431495673512404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.4948561, y: 1.494856, z: 1.4948561}
   m_Children:
   - {fileID: 809799489542938709}
   m_Father: {fileID: 0}
@@ -70,8 +70,8 @@ MonoBehaviour:
   spawnPrefabOnPickup: {fileID: 0}
   destroySpawnPrefabDelay: 10
   collectDuration: 0
-  displayMessage: {fileID: 169301250}
---- !u!114 &169301250
+  displayMessage: {fileID: 1057018350}
+--- !u!114 &1057018350
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,9 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4170175d245c6409bb0cb4cc7b2c5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Esto es una prueba
-
-'
+  message: This can't be happening
   messagePrefab: {fileID: 11400000, guid: 4f09a4fe2b79f494cb4b65e27102ddd2, type: 2}
   delayBeforeShowing: 0
   autoDisplayOnAwake: 0
