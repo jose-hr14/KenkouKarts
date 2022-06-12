@@ -282,6 +282,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: I have to keep going
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -446,6 +450,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: What am I doing?
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -874,6 +882,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: I need to get it together
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -1697,6 +1709,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: There must be a mistake
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -2165,107 +2181,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 408686997}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &509790505
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 509790506}
-  - component: {fileID: 509790508}
-  - component: {fileID: 509790507}
-  - component: {fileID: 509790509}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &509790506
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509790505}
-  m_LocalRotation: {x: 0.019371942, y: 0, z: 0, w: 0.99981236}
-  m_LocalPosition: {x: -0.011001587, y: 0.82, z: -0.75}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1304724376}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 2.22, y: 0, z: 0}
---- !u!81 &509790507
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509790505}
-  m_Enabled: 1
---- !u!20 &509790508
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509790505}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.33
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!114 &509790509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509790505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 134fae17805a1bc42b69e538e74e7bb4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  on: 1
-  contrast: 0
-  brightness: 0
-  effectType: 0
-  styleStrength: 1
 --- !u!1001 &520732180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3732,6 +3647,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: This isn't real
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -4602,6 +4521,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: This is a misunderstanding
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -5056,6 +4979,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: They will come back to me, for sure
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -5158,6 +5085,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: ...
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -5335,6 +5266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: I feel miserable
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -5575,7 +5510,7 @@ PrefabInstance:
     - target: {fileID: 4810912518991602692, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -474.42
+      value: -471.81
       objectReference: {fileID: 0}
     - target: {fileID: 4810912518991602692, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
@@ -5585,7 +5520,7 @@ PrefabInstance:
     - target: {fileID: 4810912518991602692, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -139.46
+      value: -205
       objectReference: {fileID: 0}
     - target: {fileID: 4810912518991602692, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
@@ -5629,12 +5564,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19954de30401f73428254541a9ad156e, type: 3}
---- !u!4 &1304724376 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4810912518991602692, guid: 19954de30401f73428254541a9ad156e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1304724375}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1316248600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7267178570433368784, guid: ad9b18b5e2bf23940b0adbbbbd09655f,
@@ -5672,6 +5601,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: This is unfair
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -5926,6 +5859,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: I'm not alone
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -6016,6 +5953,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: This is a joke, right?
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -6635,6 +6576,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: Everything will get better
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -7255,6 +7200,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: I don't deserve this
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -7488,6 +7437,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: I can't stand this
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -7511,7 +7464,7 @@ PrefabInstance:
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -640.35
+      value: -639.71
       objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
@@ -7521,7 +7474,7 @@ PrefabInstance:
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -259.8
+      value: -260.08
       objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
@@ -7572,6 +7525,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: Everything will go alright
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -9589,7 +9546,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
       propertyPath: message
-      value: I wont accept this
+      value: Why me
       objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
@@ -10035,6 +9992,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: I won't accept this
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
@@ -10119,6 +10080,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1786883788}
     m_Modifications:
+    - target: {fileID: 1057018350, guid: 6d9796d84c9e5a54fb4e014484945a46, type: 3}
+      propertyPath: message
+      value: I will regain my happiness
+      objectReference: {fileID: 0}
     - target: {fileID: 3761431495673512401, guid: 6d9796d84c9e5a54fb4e014484945a46,
         type: 3}
       propertyPath: m_RootOrder
